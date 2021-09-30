@@ -1,2 +1,2 @@
-# smart-store
+# store
 MERN Stack
