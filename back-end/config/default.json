@@ -1,0 +1,7 @@
+{
+  "DOMAIN": "http://localhost:8080/",
+  "PORT": 8080,
+  "MONGO_URI": "mongodb://localhost:27017/Smart-Store",
+  "jwtPrivateKey": "key"
+}
+
