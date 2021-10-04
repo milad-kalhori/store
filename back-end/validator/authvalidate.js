@@ -7,7 +7,6 @@ function registerValidate(user) {
         username : Joi.string().required(),
         name : Joi.string().required(),
         password : Joi.string().required(),
-
     };
     return Joi.validate(user , schema);
 }
