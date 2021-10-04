@@ -8,7 +8,6 @@ const authStaff = require('../middleware/authStaff');
 const authAdmin = require('../middleware/authAdmin');
 const user = require('../middleware/user');
 
-
 router.get('/', (req, res) => {
   res.send("salam")
 });
