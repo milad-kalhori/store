@@ -8,7 +8,6 @@ const Goods = require("../models/Goods");
 const ZarinpalCheckout = require('zarinpal-checkout');
 const zarinpal = ZarinpalCheckout.create('00000000-0000-0000-0000-000000000000', true);
 
-
 module.exports = new class UserController {
   async login(req, res) {
     const {error} = loginValidate(req.body);
