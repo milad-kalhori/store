@@ -18,6 +18,7 @@ module.exports = new class GoodsController {
       const goods = await Goods.find().sort({'date': -1}).populate("user").limit(20);
       res.send(goods);
     }
+  
   }
 
   async newGoods(req, res) {
